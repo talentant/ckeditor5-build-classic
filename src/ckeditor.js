@@ -33,6 +33,7 @@ import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
+import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -65,6 +66,7 @@ ClassicEditor.builtinPlugins = [
 	FontSize,
 	FontColor,
 	FontBackgroundColor,
+	Highlight,
 ];
 
 // Editor configuration.
@@ -84,6 +86,8 @@ ClassicEditor.defaultConfig = {
 			'bulletedList',
 			'numberedList',
 			'alignment',
+			'|',
+			'highlight',
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
