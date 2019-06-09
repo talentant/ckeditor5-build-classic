@@ -35,6 +35,11 @@ import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 
+// import GFMDataProcessor from '@ckeditor/ckeditor5-markdown-gfm/src/gfmdataprocessor';
+// function Markdown(editor) {
+// 	editor.data.processor = new GFMDataProcessor();
+// }
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -67,6 +72,7 @@ ClassicEditor.builtinPlugins = [
 	FontColor,
 	FontBackgroundColor,
 	Highlight,
+	// Markdown,
 ];
 
 // Editor configuration.
