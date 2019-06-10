@@ -33,7 +33,7 @@ import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
-import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+// import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 
 // import Mention from '@ckeditor/ckeditor5-mention/src/mention';
@@ -74,8 +74,8 @@ ClassicEditor.builtinPlugins = [
 	FontSize,
 	FontColor,
 	FontBackgroundColor,
-	Highlight,
 	RemoveFormat,
+	// Highlight,
 	// Markdown,
 	// Mention,
 ];
@@ -100,13 +100,13 @@ ClassicEditor.defaultConfig = {
 			'numberedList',
 			'alignment',
 			'|',
-			'highlight',
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
 			'undo',
 			'redo'
+			// 'highlight',
 		]
 	},
 	fontFamily: {
