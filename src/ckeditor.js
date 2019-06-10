@@ -34,6 +34,7 @@ import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
+// import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 
 // import GFMDataProcessor from '@ckeditor/ckeditor5-markdown-gfm/src/gfmdataprocessor';
 // function Markdown(editor) {
@@ -73,6 +74,7 @@ ClassicEditor.builtinPlugins = [
 	FontBackgroundColor,
 	Highlight,
 	// Markdown,
+	// Mention,
 ];
 
 // Editor configuration.
@@ -184,6 +186,15 @@ ClassicEditor.defaultConfig = {
 			'mergeTableCells'
 		]
 	},
+	// mention: {
+	// 	feeds: [
+	// 		{
+	// 			marker: '@',
+	// 			feed: ['@Barney', '@Lily', '@Marshall', '@Robin', '@Ted'],
+	// 			minimumCharacters: 1
+	// 		}
+	// 	]
+	// },
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'zh'
 };
