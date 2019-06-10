@@ -22,7 +22,6 @@ import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import List from '@ckeditor/ckeditor5-list/src/list';
-import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
@@ -33,10 +32,11 @@ import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
-// import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 import RemoveFormat from '@ckeditor/ckeditor5-remove-format/src/removeformat';
 
 // import Mention from '@ckeditor/ckeditor5-mention/src/mention';
+// import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
+// import Highlight from '@ckeditor/ckeditor5-highlight/src/highlight';
 
 // import GFMDataProcessor from '@ckeditor/ckeditor5-markdown-gfm/src/gfmdataprocessor';
 // function Markdown(editor) {
@@ -63,7 +63,6 @@ ClassicEditor.builtinPlugins = [
 	ImageUpload,
 	Link,
 	List,
-	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
 	Table,
@@ -78,6 +77,7 @@ ClassicEditor.builtinPlugins = [
 	// Highlight,
 	// Markdown,
 	// Mention,
+	// MediaEmbed,
 ];
 
 // Editor configuration.
@@ -106,6 +106,7 @@ ClassicEditor.defaultConfig = {
 			'mediaEmbed',
 			'undo',
 			'redo'
+			// 'mediaEmbed',
 			// 'highlight',
 		]
 	},
