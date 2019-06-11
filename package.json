@@ -1,5 +1,5 @@
 {
-  "name": "@talentant/ckeditor5-build-classic",
+  "name": "ckeditor5-build-enhanced",
   "version": "1.0.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
